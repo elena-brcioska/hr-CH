@@ -558,3 +558,20 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// load more
+
+document.addEventListener("DOMContentLoaded", function() {
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const hiddenDiv = document.querySelector('.hidden');
+
+    loadMoreBtn.addEventListener('click', function() {
+        hiddenDiv.classList.toggle('visible');
+        
+        if (hiddenDiv.classList.contains('visible')) {
+            loadMoreBtn.textContent = 'Сокриј';
+        } else {
+            loadMoreBtn.textContent = 'Види повеќе';
+        }
+    });
+});
