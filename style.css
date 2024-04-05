@@ -2670,6 +2670,10 @@ footer ul li a img {
     width: 13px;
   }
 
+  .table-section .indicators {
+    font-size: 14px;
+  }
+
   /* scholarship */
 
   #scholarship .scholarship-wrapper {
