@@ -2528,19 +2528,19 @@ footer ul li a img {
 
   .dropdown-item:hover {
     border-radius: 8px !important;
-    background: #00ff94 !important;
+    background: #4AD1FF !important;
     cursor: pointer;
   }
 
   .dropdown-item:focus {
     border-radius: 8px !important;
-    background: #00ff94 !important;
+    background: #4AD1FF !important;
     cursor: pointer;
   }
 
   .active-academy {
     border-radius: 8px !important;
-    background: #00ff94 !important;
+    background: #4AD1FF !important;
   }
 
   .navbar-pink p,
