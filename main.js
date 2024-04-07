@@ -1,4 +1,6 @@
-window.cfields = {"15":"coupon_code","14":"choose_academy"};
+// form code
+
+window.cfields = {"36":"__4","15":"coupon_code"};
 window._show_thank_you = function(id, message, trackcmp_url, email) {
     var form = document.getElementById('_form_' + id + '_'), thank_you = form.querySelector('._form-thank-you');
     form.querySelector('._form-content').style.display = 'none';
